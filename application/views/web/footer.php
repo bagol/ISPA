@@ -16,6 +16,9 @@
     <script src="<?= base_url(); ?>assets/js/jquery.js"></script>
     <!-- jQuery Lightbox -->
     <script src="<?= base_url(); ?>assets/js/lightbox-plus-jquery.min.js"></script>
+    <script src="<?= base_url(); ?>assets/js/bootstrap.js"></script>
+    <script src="<?= base_url(); ?>assets/js/costum-web.js"></script>
+    
     
 </body>
 </html>

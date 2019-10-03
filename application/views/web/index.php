@@ -9,7 +9,7 @@
         <div class="carousel-inner">
         <?php foreach ($artikels as $slide) {
     ?>
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img class="d-block w-100" src="<?= base_url('images/artikel/').$slide->nama_gambar; ?>" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3><?= $slide->judul; ?></h3>
