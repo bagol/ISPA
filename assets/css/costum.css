@@ -1,0 +1,240 @@
+body    {
+    font-family: 'Segoe UI',sans-serif;
+}
+#header {
+    background-image: linear-gradient(45deg,#23b488,#1B8C9F);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#header a {
+    color: azure;
+}
+.kecil  {
+    font-size: 9pt;
+}
+.navbar-brand h2{
+    display: inline;
+}
+.navbar-brand  {
+    line-height: 0.8;
+    /* font-style: black; */
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.search {
+    border-radius: 20px;
+    background: none;
+    border: #fff 1.5px solid;
+    color: #fff;
+    margin: 2px;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+}
+
+.readmore   {
+    /* border: 1px #fff solid; */
+    border-radius: 20px;
+    background: #23b488;
+    padding: 8px;
+    font-weight: bold;
+    color:#000;
+    font-size: 12px;
+    font-style: italic;
+}
+.carousel-item a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.carousel-caption   {
+    left:20%;
+    top: 10%;
+    text-align: left;
+    width: 350px;
+}
+
+.header-title {
+    background: #1B8C9F;
+    color:#fff;
+    width:200px;
+    text-align: center;
+}
+
+.populer-title  {
+    background:#365261 !important;
+}
+
+.garis  {
+    height: 3px;
+    background: #1B8C9F;
+    margin-top: -8px;
+}
+
+#konten {
+    min-height: 400px;
+    background: #f0f0f0;
+    padding-bottom: 60px;
+}
+
+.card {
+    width: 98%;
+}
+.tanggal-view   {
+    font-size: 9px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+.card-title {
+    font-weight: bold;
+}
+.side-item  {
+    margin: 10px;
+    
+}
+.judul-side {
+    font-weight: bold;
+}
+
+.side-main  {
+    margin-top: 20px;
+}
+
+#footer {
+    height: 80px;
+    background: #2d2d2d;
+    line-height: 5;
+    color: floralwhite;
+}
+.copyright  {
+    font-size: 1em;
+}
+
+@media (max-width:576px){
+    .navbar-nav{
+        font-size: 12px;
+    }
+    .search{
+        width: 240px;
+    }
+    .card   {
+        width: 100%;
+    }
+    .artikel-img {
+        width: 80% !important;
+    }
+}
+
+/* Halaman Download */
+#download1  {
+    background-image: linear-gradient(45deg, #23B488, #365261);
+    padding:20px;
+    min-height: 430px;
+    color: #fff;
+}
+#download2  {
+    background-image: linear-gradient( #23B488, #1B8C9F);
+    padding:20px;
+    min-height: 470px;
+    color: #fff;
+}
+#download3  {
+    background-image: linear-gradient(#365261, #1B8C9F);
+    padding:20px;
+    color: #fff;
+}
+.download-link  {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.gambar-download {
+    padding: 15px;
+}
+.text-download  {
+    width: 90%;
+    text-align: center;
+    margin-top:20%;
+}
+.text-download3  {
+    width: 90%;
+    text-align: center;
+    margin-top:10%;
+}
+.download-btn   {
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    background: #23b488;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px ;
+    line-height: 0.8;
+}
+.images-illustrator1  {
+    width:70%;
+    margin-top: 20%;
+}
+.images-illustrator2  {
+    width:50%;
+    margin-top: 10%;
+}
+.images-illustrator3  {
+    width:23%;
+    margin-top: 5%;
+}
+.gambar3    {
+    justify-content: center;
+    justify-items: center;
+}
+
+/* download media */
+
+/* Kontak */
+
+#form  {
+    background-image: linear-gradient(#365261, #1B8C9F);
+    padding:20px;
+    min-height: 450px;
+    color: #fff;
+}
+
+.images-illustrator4 {
+    width:70%;
+    padding-top: 75px;
+}
+
+.artikel    {
+    background: #fff;
+    padding-left: 10px;
+    margin-top: 50px;
+    min-height: 600px;
+}
+
+.artikel-img    {
+    margin: 0 auto;
+    width: 576px;
+    height: 375px;
+    border: #ccc 1px solid;
+}
+
+.judul-artikel , p{
+    padding: 10px 10px 10px 10px;
+}
+.body-artikel   {
+    margin-top: 20px;
+}
+.artikel-date   {
+    padding-left: 10px;
+    margin-top: -15px;
+    font-size: 10px;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+

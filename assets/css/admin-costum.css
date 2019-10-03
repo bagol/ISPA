@@ -1,0 +1,63 @@
+.kecil  {
+    font-size: 7px;
+    font-weight: bold;
+}
+.navbar {
+    background: #3b9eaf !important;
+}
+.text-gray-600 {
+    color: white !important;
+}
+.text-bold  {
+    font-weight: bold;
+}
+.sidebar-brand-text {
+    line-height: 0.8;
+    margin-top: -10px;
+}
+.sidebar-brand-text h2 {
+    display: inline;
+    font-size: 1em;
+    font-weight: bold;
+}
+.sidebar{
+    background-image: linear-gradient(45deg,#23b488,#1B8C9F);
+}
+.form-artikel  tr {
+    height: 60px;
+}
+
+.bg-login-image {
+    margin-top: 10px;
+    background-image: url('../../images/lungs.svg') !important;
+    
+    border-right: 1px solid #ccc;
+
+}
+.login{
+    margin-top: 13% !important;
+}
+.bg-gradient-primary {
+    background-image: linear-gradient(45deg,#52d3ac,#34bad1) !important;
+}
+
+.btn-user   {
+    background: #23b488;
+    border: none;   
+}
+.keterangan {
+    margin-top: 4px;
+    font-size: 11px;
+}
+.btn-user:hover   {
+    background: #1BBC9F;
+}
+/* Media hp */
+@media(max-width:320px){
+    .card   {
+        overflow-x: scroll;
+    }
+    .note-editor{
+        width: 100% !important;
+    }
+}
