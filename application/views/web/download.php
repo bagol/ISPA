@@ -9,7 +9,7 @@
             </div>
             <div class="col-sm-6 offset-sm-1">
                 <div class="text-download">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia architecto dolor quas reiciendis rem eligendi quos placeat consequuntur qui ab veritatis accusantium tenetur nam libero cumque, nostrum dolore cum!
+                     Rubah ni co ini filenya TTL tatalaksana
                 </div>
                 <div class="download-link">
                         <a href="<?= base_url('Download/file/TTL.pptx'); ?>" class="download-btn">Download</a>
@@ -26,10 +26,10 @@
             <div class="row">
                 <div class="col-sm-7">
                     <div class="text-download">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia architecto dolor quas reiciendis rem eligendi quos placeat consequuntur qui ab veritatis accusantium tenetur nam libero cumque, nostrum dolore cum!
+                        Ini file ISPA yg dari email
                     </div>
                     <div class="download-link">
-                            <a href="" class="download-btn">Download</a>
+                    <a href="<?= base_url('Download/file/ispa.ppt'); ?>" class="download-btn">Download</a>
                     </div>
                     
                 </div>
@@ -51,10 +51,10 @@
             <div class="row ">
                 <div class="offset-md-2 col-md-8">
                     <div class="text-download3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia architecto dolor quas reiciendis rem eligendi quos placeat consequuntur qui ab veritatis accusantium tenetur nam libero cumque, nostrum dolore cum!
+                        Ini Kebijakan Co benerin Kata-katanya
                     </div>
                     <div class="download-link">
-                            <a href="" class="download-btn">Download</a>
+                    <a href="<?= base_url('Download/file/kebijakan.pptx'); ?>" class="download-btn">Download</a>
                     </div>
                 </div>
             </div>

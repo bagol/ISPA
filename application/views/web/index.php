@@ -7,7 +7,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-        <?php foreach ($artikels as $slide) {
+        <?php foreach ($slides as $slide) {
     ?>
             <div class="carousel-item">
                 <img class="d-block w-100" src="<?= base_url('images/artikel/').$slide->nama_gambar; ?>" alt="...">

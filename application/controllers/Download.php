@@ -18,7 +18,9 @@ class Download extends CI_Controller
     public function file()
     {
         $nama_file = $this->uri->segment(3);
-        $file = '/assets/file/'.$nama_file;
-        force_download("/assets/file/TTL.pptx", null);
+        $data = file_get_contents('./assets/file/'.$nama_file);
+        $file = $nama_file;
+        force_download($nama_file, $data);
+        redirect('ispa/penyuluhan');
     }
 }

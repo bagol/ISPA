@@ -14,6 +14,7 @@ class Ispa extends CI_Controller
     public function index()
     {
         $data['artikels'] = $this->M_Artikel->get_all()->result();
+        $data['slides'] = $this->M_Artikel->popular(3)->result();
         $data['populars'] = $this->M_Artikel->popular(6)->result();
         $this->load->view('web/header');
         $this->load->view('web/index', $data);
@@ -51,7 +52,7 @@ class Ispa extends CI_Controller
         $data['images'] = $this->M_gambar->gambarAlbum()->result();
         $this->load->view('web/header');
         $this->load->view('web/gallery', $data);
-        
+
         $this->load->view('web/footer');
     }
 }
